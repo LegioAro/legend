@@ -1,0 +1,91 @@
+.form {
+    padding: 50px 20px;
+    background: #ffffff;
+    box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-width: 500px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+
+    &__wrapper {
+        position: relative;
+        max-width: 500px;
+        display: none;
+        padding: 0 !important;
+        border-radius: 10px;
+    }
+
+    &__title {
+        font-weight: 800;
+        font-size: 22px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+
+    &__text {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 145%;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    &__input-block {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    &__input {
+        width: 100%;
+        background: #ffffff;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        padding: 20px;
+        margin-bottom: 15px;
+        outline: none;
+        &:last-child {
+            margin-bottom: 0;
+        }
+        &::placeholder {
+            color: #000;
+            font-size: 14px;
+        }
+    }
+
+    &__btn {
+        background: linear-gradient(92.28deg, #9b7333 0%, #edd18f 65.48%, #9b7333 99.99%);
+        border-radius: 4.7625px;
+        width: 100%;
+        border: 0;
+        outline: none;
+        display: flex;
+        justify-content: center;
+        color: #fff;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 145%;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        text-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+        padding: 20px;
+        cursor: pointer;
+    }
+
+    &__decor-1 {
+        position: absolute;
+        max-width: 500px;
+        width: 100%;
+        top: -30px;
+        left: -80px;
+    }
+
+    &__decor-2 {
+        position: absolute;
+        max-width: 500px;
+        width: 100%;
+        bottom: -40px;
+        right: -80px;
+    }
+}
