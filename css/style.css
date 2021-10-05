@@ -370,6 +370,7 @@ input::-webkit-inner-spin-button {
   border-radius: 10px;
   max-width: 500px;
   width: 100%;
+  min-height: 554px;
   position: relative;
   z-index: 1;
 }
